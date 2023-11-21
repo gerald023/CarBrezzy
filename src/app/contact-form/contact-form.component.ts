@@ -19,6 +19,6 @@ export class ContactFormComponent  implements OnInit{
     senderMessage: new FormControl('', [Validators.required, Validators.minLength(10)])
   })
   submitForm(){
-    
+
   }
 }

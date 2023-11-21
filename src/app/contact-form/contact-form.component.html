@@ -1,16 +1,15 @@
 <form action="" 
-    formGroup="contactForm"
     (ngSubmit)="$event.preventDefault(); submitForm()"
 >
   <div class="container">
     <div class="top">
         <div class="inp">
             <label for="name">Your name</label>
-            <input type="text" formControlName="senderName" placeholder="Enter your name" name="" id="name">
+            <input type="text" placeholder="Enter your name" name="" id="name">
         </div>
         <div class="inp">
             <label for="email">Your email address</label>
-            <input type="email" formControlName="senderEmail" placeholder="Enter your email" name="" id="email">
+            <input type="email" placeholder="Enter your email" name="" id="email">
             <div
                 style="color: red;"
                 *ngIf="contactForm.get('senderEmail')?.invalid && (contactForm.get('senderEmail')?.dirty || contactForm.get('senderEmail')?.touched)"
@@ -21,7 +20,7 @@
        </div>
         <div class="message">
             <label for="message">Message</label>
-            <textarea name="" placeholder="Message" formControlName="senderMessage" id="message" cols="30" rows="3"></textarea>
+            <textarea name="" placeholder="Message" id="message" cols="30" rows="3"></textarea>
         </div>
         <div class="btn">
             <button 
