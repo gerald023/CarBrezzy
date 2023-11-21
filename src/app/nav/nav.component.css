@@ -72,6 +72,9 @@ nav .nav_container .menu{
     nav{
         height: 50px;
     }
+    .app_logo{
+        width: 40px;
+    }
     .nav_container .nav_link a{
         font-size: 15px;
     }
@@ -88,5 +91,8 @@ nav .nav_container .menu{
 @media(max-width:800px){
     nav{
         height: 20px;
+    }
+    .app_logo{
+        width: 16px;
     }
 }
