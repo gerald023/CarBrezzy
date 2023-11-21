@@ -1,0 +1,244 @@
+@media(max-width:1000px){
+    #hero{
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+    .hero .hero_sec{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+    .shadow img{
+        object-fit: cover;
+        height: 60%;
+    }
+    .hero_sec .hero_txt{
+        position: relative;
+        height: 35%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 80%;
+        box-shadow: none;
+
+    }
+    .hero_txt .txt{
+        gap: 20px;
+    }
+    .hero_txt .txt h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .hero_txt .hero_btn{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    .hero_btn button{
+        transition: 0.5s ease-in-out;
+        padding: 14px 0;
+        width: 70%;
+        cursor: pointer;
+        align-self: center;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        background-color: rgb(27, 75, 27);
+    }
+    .hero_btn button:active{
+        transform: scale(0.9);
+    }
+    .hero_txt .hero_btn a{
+        width: 100%;
+        display: flex;
+        align-items: center;  
+    }
+    .hero_txt .txt p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+@media(max-width:750px){
+    .hero_txt .txt{
+        gap: 18px;
+        align-items: center;
+    }
+    .hero_txt .txt h1{
+        font-size: 40px;
+    }
+    .hero_btn button{
+        font-size: 15px;
+    }
+    .hero_txt .txt p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media(max-width:450px){
+    #hero{
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+    .shadow:nth-child(1) img{
+        object-position: right;
+    }
+    .shadow img{
+        object-fit: cover;
+        object-position: center;
+        height: 60%;
+    }
+    .hero_txt .txt{
+        gap: 16px;
+        align-items: center;
+    }
+    .hero_txt .txt h1{
+        font-size: 32px;
+    }
+    .hero_btn button{
+        font-size: 14px;
+    }
+    .hero_txt .txt p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media(max-width:400px){
+    #hero{
+    }
+    
+    .shadow:nth-child(1) img{
+        object-position: right;
+    }
+    .shadow img{
+        object-fit: cover;
+        object-position: center;
+        height: 60%;
+    }
+    .hero_txt .txt{
+        gap: 16px;
+        align-items: center;
+    }
+    .hero_txt .txt h1{
+        font-size: 30px;
+    }
+    .hero_btn button{
+        font-size: 14px;
+    }
+    .hero_txt .txt p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media(max-width:380px){
+    #hero{
+    }
+    .hero_txt .txt{
+        gap: 16px;
+        align-items: center;
+    }
+    .hero_txt .txt h1{
+        font-size: 28px;
+    }
+    .hero_btn button{
+        font-size: 11px;
+    }
+    .hero_txt .txt p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    #hero{
+    }
+}
+
+/* HERO ENDS */
+
+/* HOME STYLE */
+
+
+
+
+
+
+
+
+
+
+main .search{
+    width: 100%;
+    padding: 50px 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9d1d050;
+}
+.search .top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.search .top select{
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    padding: 20px 10px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.6s  ease-in-out;
+    background-color: #3e373c;
+    border: none;
+    -webkit-user-select: none;
+}
+.search .top select:hover{
+    box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.192);
+}
+.search .top select:active{
+    box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.192);
+}
+
+.top option{
+    color: white;
+    font-size: 17px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+.search .head{
+    font-size: 40px;
+    position: relative;
+}
+.search .head::after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    z-index: 1;
+    right: -80px;
+    height: 70px;
+    border-radius: 50%;
+    /* background: url('../images/banner_2.png'); */
+    background-position: center;
+    background-size: cover;
+}
+@keyframes move-in {
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

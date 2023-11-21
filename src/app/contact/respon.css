@@ -1,0 +1,145 @@
+@media (max-width: 400px){
+    .faq .faq_con .bulb{
+        width: 40px;
+        height: 40px;
+    }
+    .box_con{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 120px));
+        align-items: center;  
+    }
+    .txt h1{
+        font-size: 12px;
+    }
+    .contact_hero .txt form input{
+        width: 200px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .box h1{
+        font-size: 12px;
+    }
+    .box i{
+        font-size: 14px;
+    }
+    .mapp h1{
+        font-size: 14px;
+    }
+     .box p{
+        font-size: 10px;
+    }
+    .box_con .box{
+        height: 130px;
+    }
+    .faq .faq_con .bulb::after{
+        font-size: 20px;
+    }
+    .faq_con h1{
+        font-size: 14px;
+        text-align: center;
+        word-spacing: 4px;
+    }
+    .faq_con ul{
+        width: 200px;
+    }
+    .faq_con ul li{
+        height: 20px;
+    }
+    .faq_con ul li div{
+        padding: 7px 8px 12px 8px;
+
+        align-items: center;
+    }
+    .faq_con ul li div h3{
+        font-size: 10px;
+    }
+    .faq_con ul li div i{
+        font-size: 10px;
+    }
+    .faq_con ul li  p{
+        font-size: 10px;
+    }
+    .news{
+        display: none;
+    }
+    .mapp h1{
+        font-size: 18px;
+    }
+    .mapp iframe{
+        height: 200px;
+    }
+    footer .list iframe{
+        height: 150px;
+    }
+}
+
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    align-items: center;
+}
+.news .news_con{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #3e373c;
+    border-radius: 200px;
+    justify-content: center;
+}
+.news .news_con::after{
+    content: 'CB';
+    position: absolute;
+    font-size: 500px;
+    color: #322e31;
+}
+.news_con form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 30px;
+    z-index: 4;
+}
+.news_con form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.news_con form input{
+    width: 450px;
+    padding: 5px 20px;
+    height: 60px;
+    outline: none;
+    color: #322e31;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+.news_con form input::placeholder{
+    font-size: 20px;
+}
+.news_con form h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 1;
+}
+.news_con form label{
+    color: #322e31;
+    /* margin-top: -40px; */
+    position: absolute;
+    cursor: pointer;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news_con form label i{
+    color: #322e31;
+    font-size: 20px;
+}

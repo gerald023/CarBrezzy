@@ -6,7 +6,15 @@ import { ContactComponent } from '../contact/contact.component';
   standalone: true,
   imports: [CommonModule, ContactComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: [
+    './home.component.css',
+    './home.css',
+    './home2.css',
+    './home3.css',
+    './home4.css',
+    './home5.css',
+    './home6.css'
+  ]
 })
 export class HomeComponent {
   

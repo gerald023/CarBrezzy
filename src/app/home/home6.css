@@ -1,0 +1,102 @@
+/* AT 350PX */
+@media(max-width:350px){
+   
+    .about_us .abt_con .txt h1{
+        font-size: 14px;
+    }
+    .about_us .abt_con .box_a{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+    }
+    .about_us .abt_con .box_a .box{
+        padding: 6px 10px;
+    }
+    
+    .about_us .abt_con .box_a .box .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .about_us .abt_con .box_a .box .icon .icon1{
+         width: 30px;
+         height: 30px;
+     }
+    .about_us .icon::before{
+        font-size: 14px;
+    }
+    .about_us .abt_con .box_a .box .msg h3{
+       font-size: 7px;
+    }
+    
+    .about_us .abt_con .box_a .box .msg p{
+        font-size: 5px;
+    }   
+    
+
+.partners .txt h2{
+    font-size: 10px;
+}
+.partners .p_con{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 50px));
+}
+
+.news {
+    padding: 0 4%;
+}
+.news .news_con{
+    width: 200px;
+    height: 200px;
+}
+.news .news_con::after{
+    font-size: 120px;
+}
+
+.news_con form input{
+    width: 120px;
+    padding: 5px 10px;
+    height: 23px;
+    font-size: 8px;
+}
+.news_con form input::placeholder{
+    font-size: 8px;
+}
+.news_con form h1{
+    font-size: 10px;
+}
+.news_con form label{
+    right: 23%;
+}
+.news_con form label i{
+    font-size: 9px;
+}
+}
+.search .btn{
+    margin-top: 20px;
+}
+ .g_btn {
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    color: #302b2f;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+    background-color: #d9d1d0;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+ .g_btn  i,
+ .g_btn .material-symbols-outlined{
+    color: #302b2f;
+}
+
+ .g_btn:hover{
+    border-color: #d9d1d0;
+    background-color: #302b2f;
+    color: #d9d1d0;
+    transform: scale(1.05);
+}
+.g_btn:hover .g_btn .material-symbols-outlined{
+    color: #d9d1d0;
+}

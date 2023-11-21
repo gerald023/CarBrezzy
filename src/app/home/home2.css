@@ -1,0 +1,232 @@
+/* FEATURED CAR SECTION */
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 10%;
+}
+.featured .details{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 47%;
+}
+.featured .details .txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.featured .details .txt p{
+    font-size: 18px;
+    color: #5e5d5d;
+    font-weight: 600;
+}
+
+.featured .details .txt h1{
+    font-size: 50px;
+}
+button:active{
+    transform: scale(1.2);
+}
+.featured .f_car{
+    width: 540px;
+    position: relative;
+    background-color: #3e373c;
+    border-radius: 50%;
+    height: 540px;
+    transition: 0.6s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+.featured .f_car:hover{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.192);
+}
+.featured .f_car::after{
+    content: 'FORD';
+    position: absolute;
+    top: 55%;
+    right: -62%;
+    letter-spacing: 7;
+    line-height: 0;
+    text-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.192);
+    font-size: 230px;
+    transform: rotate(90deg);
+    color: #5e5d5d75;
+}
+.featured .f_car img{
+    position: absolute;
+    transform: scale(1.1);
+    left: -23%;
+    z-index: 1;
+}
+.featured .details .table{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 0;
+}
+
+.featured .details .table .t_body{
+    display: flex;
+    gap: 20px;
+}
+.featured .details .table .t_body:nth-child(1){
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.featured .details .table .t_body:nth-child(2){
+    gap: 50px;
+    font-size: 15px;
+    color: #3e373c;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.featured .details .table .t_body li{
+    width: 100px;
+}
+.featured .details .table .t_body:nth-child(2) li{
+    color: rgba(255, 255, 255, 0.728);
+}
+
+@media(max-width:1500px){
+    .search .head h1{
+        font-size: 35px;
+    }
+    .search .head::after{
+        width: 70px;
+        top: -20px;
+        right: -87px;
+        height: 70px;
+    }
+    .search .top select{
+        font-size: 16px
+    }
+    .top option{
+        font-size: 15px;
+    }
+    .g_btn {
+        padding: 12px 24px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .featured .details .txt p{
+        font-size: 18px;
+    }
+    
+    .featured .details .txt h1{
+        font-size: 40px;
+    }
+    .featured .details .table{
+        gap: 20px;
+    }
+    
+    .featured .details .table .t_body{
+        display: flex;
+    }
+    .featured .details .table .t_body:nth-child(1){
+        gap: 30px;
+        font-size: 15px;
+    }
+    .featured .details .table .t_body:nth-child(2){
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    .featured .f_car{
+        width: 450px;
+        height: 450px;
+    }
+    .featured .f_car img{
+        width: 140%;
+    }
+    .featured .f_car::after{
+        font-size: 190px;
+    }
+}
+
+@media(max-width:1300px){
+    .g_btn {
+        padding: 11px 22px;
+        border-radius: 19px;
+        font-size: 17px;
+    }
+    .featured .details .txt p{
+        font-size: 17px;
+    }
+    
+    .featured .details .txt h1{
+        font-size: 37px;
+    }
+    .featured .details .table .t_body:nth-child(1){
+        font-size: 14px;
+    }
+    .featured .details .table .t_body:nth-child(2){
+        font-size: 11.3px;
+    }
+
+    .featured .f_car{
+        width: 420px;
+        height: 420px;
+    }
+    .featured .f_car img{
+        width: 130%;
+    }
+    .featured .f_car::after{
+        font-size: 160px;
+        right: -50%;
+    }
+}
+@media(max-width:1230px){
+    .search .head h1{
+        font-size: 20px;
+    }
+    .search .head::after{
+        width: 50px;
+        top: -20px;
+        right: -70px;
+        height: 50px;
+    }
+    .featured{
+       gap: 50px;
+    }
+    .g_btn {
+        padding: 10px 20px;
+        border-radius: 18px;
+        font-size: 14px;
+    }
+    .featured .details .txt p{
+        font-size: 16px;
+    }
+    
+    .featured .details .txt h1{
+        font-size: 20px;
+    }
+    .featured .details .table{
+        gap: 20px;
+    }
+    
+    .featured .details .table .t_body:nth-child(1){
+        gap: 20px;
+        font-size: 13px;
+    }
+    .featured .details .table .t_body:nth-child(2){
+        gap: 20px;
+        font-size: 11px;
+    }
+
+    .featured .f_car{
+        width: 380px;
+        height: 380px;
+    }
+    .featured .f_car img{
+        width: 129%;
+    }
+    .featured .f_car::after{
+        font-size: 140px;
+        right: -50%;
+    }
+}

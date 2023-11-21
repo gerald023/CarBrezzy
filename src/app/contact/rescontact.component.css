@@ -1,0 +1,204 @@
+/* RESPONSIVENESS */
+@media (max-width: 1200px) {
+     .box_con{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    }
+    .contact_hero .txt form input{
+        width: 600px;
+    }
+     .box h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1000px) {
+     .box_con{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    }
+     .txt h1{
+        font-size: 25px;
+    }
+    .contact_hero .txt form input{
+        width: 500px;
+        height: 50px;
+    }
+     .box h1{
+        font-size: 20px;
+    }
+    .mapp h1{
+        font-size: 30px;
+    }
+     .box p{
+        font-size: 16px;
+    }
+    .faq .faq_con .bulb{
+        width: 80px;
+        height: 80px;
+    }
+    .faq .faq_con .bulb::after{
+        font-size: 40px;
+    }
+    .faq_con h1{
+        font-size: 32px;
+        word-spacing: 10px;
+    }
+    .faq_con ul{
+        width: 600px;
+    }
+    .faq_con ul li div h3{
+        font-size: 17px;
+    }
+    .faq_con ul li  p{
+        font-size: 14px;
+    }
+    .faq_con ul li{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        overflow-y: hidden;
+        flex-direction: column;
+        transition: 0.5s ease-in-out;
+        border-radius: 15px;
+        background-color: white;
+        color: #3e373c;
+    }
+    .faq_con ul li div{
+        width: 100%;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 880px) {
+     .box_con{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 220px));
+       
+    }
+    .mapp h1{
+        font-size: 25px;
+    }
+    .box_con:nth-child(1){
+        display: none;
+    }
+    .con111{
+        display: none;
+    }
+    .con22{
+        display: grid;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+     .txt h1{
+        font-size: 20px;
+    }
+    .contact_hero .txt form input{
+        width: 500px;
+        height: 50px;
+        font-size: 16px;
+    }
+     .box h1{
+        font-size: 18px;
+    }
+     .box p{
+        font-size: 14px;
+    }
+    .faq .faq_con .bulb{
+        width: 70px;
+        height: 70px;
+    }
+    .faq .faq_con .bulb::after{
+        font-size: 30px;
+    }
+    .faq_con h1{
+        font-size: 25px;
+        text-align: center;
+        word-spacing: 10px;
+    }
+    .faq_con ul{
+        width: 500px;
+    }
+    .faq_con ul li div h3{
+        font-size: 14px;
+    }
+    .faq_con ul li  p{
+        font-size: 14px;
+    }
+    .news{
+        display: none;
+    }
+}
+
+@media (max-width: 580px){
+    .contact_hero{
+        width: 100%;
+        height: 400px;
+        background: url('/images/contact_hero.webp');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-position: center;
+    }
+    .faq .faq_con .bulb{
+        width: 50px;
+        height: 50px;
+    }
+    .box_con{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+       
+    }
+    .txt h1{
+        font-size: 16px;
+    }
+    .contact_hero .txt form input{
+        width: 380px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .box_con .box{
+        height: 150px;
+    }
+    .box i{
+        font-size: 17px;
+    }
+    .faq .faq_con .bulb::after{
+        font-size: 25px;
+    }
+    .faq_con h1{
+        font-size: 20px;
+        text-align: center;
+        word-spacing: 4px;
+    }
+    .faq_con ul{
+        width: 350px;
+    }
+    .faq_con ul li{
+        height: 30px;
+    }
+    .faq_con ul li div{
+        padding-top: 7px;
+    }
+    .faq_con ul li div h3{
+        font-size: 12px;
+    }
+    .faq_con ul li  p{
+        font-size: 11.2px;
+    }
+    .news{
+        display: none;
+    }
+    .mapp h1{
+        font-size: 18px;
+    }
+    .mapp iframe{
+        height: 300px;
+    }
+    footer .list iframe{
+        height: 150px;
+    }
+}
+

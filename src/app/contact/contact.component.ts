@@ -12,7 +12,11 @@ import { ContactFormComponent } from '../contact-form/contact-form.component';
     ContactFormComponent,
   ],
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  styleUrls: [
+    './contact.component.css', 
+    './rescontact.component.css',
+     './rescon.css', './respon.css'
+    ]
 })
 export class ContactComponent {
 
