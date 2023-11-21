@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    box-shadow: 10px 0px 10px rgba(128, 128, 128, 0.629);
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #302b2f;
+}
+nav .nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+ .app_logo{
+    width: 70px;
+}
+
+.nav_container .nav_link a{
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav_container .nav_link a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    bottom: 0;
+    background:  linear-gradient(to right, #41cde2  50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.nav_container .nav_link a:hover::before{
+    background-position: left bottom;
+}
+.nav_container .nav_link{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_container .fav{
+ display: flex;
+ align-items: center;
+ gap: 30px;   
+}
+nav .nav_container .menu{
+    display: none;
+}
+/*  */
+
+@media (max-width: 1000px){
+    nav{
+        height: 50px;
+    }
+    .nav_container .nav_link a{
+        font-size: 15px;
+    }
+}
+@media (max-width:900px){
+    .nav_container .nav_link{
+        display: none;
+    }
+    nav .nav_container .menu{
+        display: flex;
+    }
+}
+
+@media(max-width:800px){
+    nav{
+        height: 20px;
+    }
+}

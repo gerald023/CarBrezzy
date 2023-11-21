@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 7%;
+    gap: 12%;
+}
+.container .img{
+    width: 40%;
+    border: 2px solid red;
+    padding: 40px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.container .img img{
+    width: 100%;
+    transition: 0.6s ease-in-out;
+}
+.container .img .honda{
+    width: 180%;
+}
+.container .img img:hover{
+    transform: scale(1.2);
+}
+.container .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.desc .name h2{
+    font-size: 40px;
+}
+.desc .details .txt p{
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(181, 181, 181);
+    text-decoration: underline;
+}
+.desc .details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 47%;
+}
+
+button:active{
+    transform: scale(1.2);
+}
+.desc .details .table{
+    display: flex;
+    gap: 70px;
+    padding: 0;
+}
+
+.desc .details .table .t_body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+    width: 100%;
+    gap: 30px;
+}
+.desc .details .table .t_body:nth-child(1){
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+}
+.desc .details .table .t_body:nth-child(2){
+    font-size: 15px;
+    color: #3e373c;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.desc .details .table .t_body li{
+    width: 100px;
+}
+.desc .details .table .t_body:nth-child(2) li{
+    color: rgba(255, 255, 255, 0.728);
+    width: max-content;
+}
+
+main form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 120px 7%;
+}
+form .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+form .txt p{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+form input{
+    background-color: #312d2f;
+    border-bottom: 2px solid gray;
+    outline: none;
+    height: 47px;
+    font-size: 17px;
+    padding: 7px 14px;
+    color: rgb(205, 201, 201);
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+form input::placeholder{
+    color: rgb(205, 201, 201);
+    font-size: 17px;
+}
+form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+form .inp{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+form .inp div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#name, #email{
+    width: 430px;
+}
+#card{
+    width: 570px;
+}
+#CVV, #qty{
+    width: 100px;
+}
+#CVV::placeholder{
+    font-style: italic;
+}
+form .btn{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+form .btn button{
+    width: 17%;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 15px 3px;
+
+}
+@media(max-width:1500px){
+    .featured .details .table{
+        gap: 20px;
+    }
+    
+    .featured .details .table .t_body{
+        display: flex;
+    }
+    .featured .details .table .t_body:nth-child(1){
+        gap: 30px;
+        font-size: 15px;
+    }
+    .featured .details .table .t_body:nth-child(2){
+        gap: 30px;
+        font-size: 12px;
+    }
+}

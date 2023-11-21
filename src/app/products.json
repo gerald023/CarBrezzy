@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "image": "../../assets/images/hondaCivic.avif",
+        "name": "Honda Civic Si",
+        "price": 29100,
+        "class": "honda",
+        "speed": "200HP",
+        "engine": "TurboCharged Engine",
+        "fuel": "25"
+    },
+    {
+        "id": 2,
+        "image": "../../assets/images/toyotaCrown.webp",
+        "name": "Toyota Crown",
+        "price": 37500,
+        "speed": "236HP",
+        "engine": "TurboCharged Engine",
+        "fuel": "30"
+    },
+    {
+        "id": 3,
+        "image": "../../assets/images/ford_hummer.avif",
+        "name": "Ford Bronco",
+        "price": 40000,
+        "speed": "330HP",
+        "engine": "2.7L Ti-VCT GTDI V6",
+        "fuel": "20.8"
+    },
+    {
+        "id": 4,
+        "image": "../../assets/images/ford_mach.avif",
+        "name": "Ford Mustang Mach-E",
+        "price": 42000,
+        "speed": "346HP",
+        "engine": "TurboCharged Engine",
+        "fuel": "25"
+    },
+    {
+        "id": 5,
+        "image": "../../assets/images/honda_hummer.png",
+        "name": "Honda Pilot",
+        "price": 12300,
+        "class": "honda",
+        "speed": "285HP",
+        "engine": "V6 Engine",
+        "fuel": "48"
+    },
+    {
+        "id": 6,
+        "image": "../../assets/images/hondatruck.avif",
+        "name": "Honda RigdeLine",
+        "price": 36000,
+        "class": "honda",
+        "speed": "280HP",
+        "engine": "V6 Engine",
+        "fuel": "25"
+    },
+    {
+        "id": 7,
+        "image": "../../assets/images/lambo_hurricane.png",
+        "name": "Lamboghini Huracan",
+        "price": 12000,
+        "class": "sport",
+        "speed": "200HP",
+        "engine": "TurboCharged Engine",
+        "fuel": "25"
+    },
+    {
+        "id": 8,
+        "image": "../../assets/images/sequoise.webp",
+        "name": "Toyota Squoia",
+        "price": 62000,
+        "speed": "245HP",
+        "engine": "2.5-liter hybrid engine",
+        "fuel": "60"
+    },
+    {
+        "id": 9,
+        "image": "../../assets/images/tundra.webp",
+        "name": "Toyota Tundra",
+        "price": 60000,
+        "speed": "437HP",
+        "engine": "i-FORCE Twin-Turbo V6",
+        "fuel": "75"
+    },
+    {
+        "id": 10,
+        "image": "../../assets/images/maybach.png",
+        "name": "Maybach Benz",
+        "price": 12000,
+        "class": "sport",
+        "speed": "480  7,150rpm (93-octane fuel)",
+        "engine": "TurboCharged Engine",
+        "fuel": "25"
+    },
+    {
+        "id": 11,
+        "image": "../../assets/images/toyotaHigh.png",
+        "name": "Toyota Highlander",
+        "price": 40000,
+        "speed": "265HP",
+        "engine": "2.4-liter 4-cylinder turbo",
+        "fuel": "50"
+    },
+    {
+        "id": 11,
+        "image": "../../assets/images/toyota_hybrid.webp",
+        "name": "Toyota Hybrid",
+        "price": 30000,
+        "speed": "208HP",
+        "engine": "Hybrid 2.5L 4-Cyl. engine",
+        "fuel": "37"
+    }
+]
