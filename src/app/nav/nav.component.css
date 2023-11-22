@@ -59,9 +59,12 @@ nav .nav_container{
     gap: 40px;
 }
 .nav_container .fav{
- display: flex;
+ display: none;
  align-items: center;
  gap: 30px;   
+}
+.nav_container .fav fa-icon{
+    cursor: pointer;
 }
 nav .nav_container .menu{
     display: none;
@@ -83,6 +86,11 @@ nav .nav_container .menu{
     .nav_container .nav_link{
         display: none;
     }
+    .nav_container .fav{
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+       }
     nav .nav_container .menu{
         display: flex;
     }

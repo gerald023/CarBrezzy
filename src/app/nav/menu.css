@@ -1,0 +1,67 @@
+menu{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.225);
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+menu .con{
+    height: 100%;
+    width: 50%;
+    padding: 10px 5%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    background-color: white;
+}
+menu .con .txt{
+    color: black;
+    width: 100%;
+}
+menu .con .txt h5{
+    width: max-content;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgba(220, 220, 220, 0.819);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: black;
+}
+menu .con ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 2%;
+}
+menu .con ul li{
+    width: 100%;
+}
+menu .con ul li a{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+    padding: 14px 10px;
+}
+menu .con fa-icon{
+    color: black;
+}
+menu .con ul li a:hover{
+    background-color: gainsboro;
+}
+menu .closeMenu{
+    height: 100%;
+    width: 50%;
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.13);
+}
