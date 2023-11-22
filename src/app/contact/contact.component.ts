@@ -15,8 +15,7 @@ import { ContactFormComponent } from '../contact-form/contact-form.component';
   styleUrls: [
     './contact.component.css', 
     './rescontact.component.css',
-     './rescon.css', './respon.css',
-     './contact.css'
+     './rescon.css', './respon.css'
     ]
 })
 export class ContactComponent {
