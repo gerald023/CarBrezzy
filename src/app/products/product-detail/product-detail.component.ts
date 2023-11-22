@@ -8,7 +8,10 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './product-detail.component.html',
-  styleUrl: './product-detail.component.css'
+  styleUrls: [
+    './product-detail.component.css',
+    './prolist.css'
+  ]
 })
 export class ProductDetailComponent implements OnInit{
   product: any = {};

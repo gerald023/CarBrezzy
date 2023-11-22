@@ -108,6 +108,7 @@ form .txt{
     text-align: center;
     gap: 20px;
 }
+
 form .txt p{
     display: flex;
     align-items: center;
@@ -137,23 +138,28 @@ form label{
     font-weight: 600;
 }
 form .inp{
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 form .inp div{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
+.inp .CVV, .inp .qty{
+    width: 20%;
+}
 #name, #email{
-    width: 430px;
+    width: 80%;
 }
 #card{
-    width: 570px;
+    width: 70%;
 }
 #CVV, #qty{
-    width: 100px;
+    width: 100%;
 }
 #CVV::placeholder{
     font-style: italic;
