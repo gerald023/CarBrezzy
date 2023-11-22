@@ -156,7 +156,11 @@
 }
 /* AT 400PX */
 @media(max-width:450px){
-   
+    .g_btn {
+        padding: 6px 10px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
     .about_us .abt_con .txt h1{
         font-size: 18px;
     }

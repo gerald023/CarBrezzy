@@ -8,7 +8,11 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './productslist.component.html',
-  styleUrl: './productslist.component.css'
+  styleUrls: [
+    './productslist.component.css',
+    './resShop.css',
+    './resShop2.css'
+  ]
 })
 export class ProductslistComponent implements OnInit{
   products: any[] = [];

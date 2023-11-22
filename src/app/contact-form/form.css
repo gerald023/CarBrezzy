@@ -1,0 +1,47 @@
+@media(max-width:450px){
+    form{
+        padding: 80px 0;
+    
+    }
+    form .container{
+        gap: 25px;
+    }
+
+    form .top .inp, .message{
+        gap: 12px;
+    }
+    form label{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    form input{
+        width: 70%;
+        height: 21px;
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    form input::placeholder{
+        font-size: 10px;
+    }
+    form textarea{
+        width: 70%;
+        border: none;
+        outline: none;
+        height: 80px;
+    }
+    form .container .btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form .container .btn button{
+        width: 40%;
+        font-size: 11px;
+        padding: 10px 8px;
+        border-radius: 20px;
+    }
+    form .container .btn button:active{
+        transform: scale(1.1);
+    }
+}

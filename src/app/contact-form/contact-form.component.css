@@ -1,25 +1,34 @@
 form{
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 40px;
-    padding: 120px 4%;
+    justify-content: center;
+    padding: 120px 0;
+    margin: 0 auto;
+
 }
 form .container{
+    align-self: center;
+    margin: 0 auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
 form .top{
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 2%;
 }
 form .top .inp, .message{
+    width: 100%;
     display: flex;
     flex-direction: column;
+
     gap: 12px;
 }
 form label{
@@ -27,7 +36,7 @@ form label{
     font-weight: 600;
 }
 form input{
-    width: 320px;
+    width: 70%;
     height: 30px;
     font-size: 15px;
     border: none;

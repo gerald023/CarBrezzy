@@ -1,0 +1,143 @@
+  /* RESPONSIVENESS */
+
+  @media(max-width:1360px){
+.news {
+    padding: 0 4%;
+}
+.news .news_con{
+    width: 700px;
+}
+.news .news_con::after{
+    font-size: 420px;
+}
+.news_con form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.news_con form input{
+    width: 350px;
+    padding: 5px 20px;
+    height: 50px;
+}
+.news_con form input::placeholder{
+    font-size: 20px;
+}
+.news_con form h1{
+    font-size: 35px;
+    padding: 0 20px;
+}
+.news_con form label{
+ 
+}
+.news_con form label i{
+    font-size: 18px;
+}
+}
+
+/* AT 750PX */
+@media(max-width:750px){
+.news {
+    padding: 0 4%;
+}
+.news .news_con{
+    width: 500px;
+}
+.news .news_con::after{
+    font-size: 300px;
+}
+.news_con form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.news_con form input{
+    width: 320px;
+    padding: 5px 20px;
+    height: 40px;
+    font-size: 14px;
+}
+.news_con form input::placeholder{
+    font-size: 14px;
+}
+.news_con form h1{
+    font-size: 20px;
+}
+.news_con form label{
+    right: 15%;
+}
+.news_con form label i{
+    font-size: 16px;
+}
+}
+/* AT 400PX */
+@media(max-width:450px){
+.news {
+    padding: 0 4%;
+}
+.news .news_con{
+    width: 300px;
+    height: 300px;
+}
+.news .news_con::after{
+    font-size: 220px;
+}
+
+.news_con form input{
+    width: 200px;
+    padding: 5px 20px;
+    height: 35px;
+    font-size: 12px;
+}
+.news_con form input::placeholder{
+    font-size: 14px;
+}
+.news_con form h1{
+    font-size: 15px;
+}
+.news_con form label{
+    right: 21%;
+}
+.news_con form label i{
+    font-size: 14px;
+}
+}
+
+/* AT 350PX */
+@media(max-width:350px){
+.news {
+    padding: 0 4%;
+}
+.news .news_con{
+    width: 200px;
+    height: 200px;
+}
+.news .news_con::after{
+    font-size: 120px;
+}
+
+.news_con form input{
+    width: 120px;
+    padding: 5px 10px;
+    height: 23px;
+    font-size: 8px;
+}
+.news_con form input::placeholder{
+    font-size: 8px;
+}
+.news_con form h1{
+    font-size: 10px;
+}
+.news_con form label{
+    right: 23%;
+}
+.news_con form label i{
+    font-size: 9px;
+}
+}

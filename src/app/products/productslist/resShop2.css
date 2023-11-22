@@ -1,0 +1,104 @@
+/* at 380px */
+@media(max-width:380px){
+    main{
+        gap: 16px;
+        margin-top: 30px;
+    }
+    main h1{
+        font-size: 15px;
+    }
+    .shop_con{
+        gap: 25px;
+    }
+    
+    /* SIDEBAR */
+    .shop_con .sidebar ul{
+        gap: 13px;
+    }
+    .shop_con .sidebar ul li .tags{
+        padding: 6px 0;
+    }
+    .shop_con .sidebar ul li .tags h5{
+        font-size: 9px;
+    }
+    .shop_con .shop .car_con{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 140px));
+        gap: 10px;
+    }
+    .shop_con .shop .car_con .car_shop{
+        gap: 0px;
+        padding: 4% 2%;
+    }
+    
+    .shop_con .car_con .car_shop .img{
+        height: 90px;
+    }
+    .shop_con .car_con .car_shop .name h4{
+        font-size: 9px;
+    }
+    .shop_con .car_shop .price h6{
+        font-size: 8px;
+    }
+    .shop_con .car_con .car_shop .hide_bp{
+        gap: 10px;
+        padding: 10px 4% 0 4%;
+
+    }
+   
+    .shop_con .car_con .car_shop .buy button{
+        padding:4px 8px;
+        font-size: 8px;
+    }
+}
+/* at 300px */
+@media(max-width:300px){
+    main{
+        gap: 13px;
+        margin-top: 20px;
+    }
+    main h1{
+        font-size: 13px;
+    }
+    .shop_con{
+        gap: 20px;
+    }
+    
+    /* SIDEBAR */
+    .shop_con .sidebar ul{
+        gap: 10px;
+    }
+    .shop_con .sidebar ul li .tags{
+        padding: 4px 0;
+    }
+    .shop_con .sidebar ul li .tags h5{
+        font-size: 7px;
+    }
+    .shop_con .shop .car_con{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+        gap: 10px;
+    }
+    .shop_con .shop .car_con .car_shop{
+        gap: 0px;
+        padding: 4% 2%;
+    }
+    
+    .shop_con .car_con .car_shop .img{
+        height: 70px;
+    }
+    .shop_con .car_con .car_shop .name h4{
+        font-size: 7px;
+    }
+    .shop_con .car_shop .price h6{
+        font-size: 6px;
+    }
+    .shop_con .car_con .car_shop .hide_bp{
+        gap: 8px;
+        padding: 7px 4% 0 4%;
+
+    }
+   
+    .shop_con .car_con .car_shop .buy button{
+        padding:3px 6px;
+        font-size: 7px;
+    }
+}

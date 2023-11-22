@@ -7,7 +7,10 @@ import {FormGroup,FormControl, Validators} from '@angular/forms'
   standalone: true,
   imports: [CommonModule],
   templateUrl: './contact-form.component.html',
-  styleUrl: './contact-form.component.css'
+  styleUrls: [
+    './contact-form.component.css',
+    './form.css'
+  ]
 })
 export class ContactFormComponent  implements OnInit{
   constructor(){}
