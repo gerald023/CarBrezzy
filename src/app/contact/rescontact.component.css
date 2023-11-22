@@ -126,9 +126,6 @@
     .faq_con ul li  p{
         font-size: 14px;
     }
-    .news{
-        display: none;
-    }
 }
 
 @media (max-width: 580px){
@@ -187,9 +184,6 @@
     }
     .faq_con ul li  p{
         font-size: 11.2px;
-    }
-    .news{
-        display: none;
     }
     .mapp h1{
         font-size: 18px;

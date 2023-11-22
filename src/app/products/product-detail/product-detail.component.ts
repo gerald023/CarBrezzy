@@ -10,7 +10,8 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
   templateUrl: './product-detail.component.html',
   styleUrls: [
     './product-detail.component.css',
-    './prolist.css'
+    './prolist.css',
+    './list.css'
   ]
 })
 export class ProductDetailComponent implements OnInit{
