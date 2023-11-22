@@ -255,3 +255,142 @@
     
     }
 }
+/* 500px */
+@media(max-width: 500px){
+    .container{
+        align-items: center;
+        padding: 23px 7%;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .desc .name h2{
+        font-size: 16px;
+    }
+    .desc .details .txt p{
+        font-size: 9px;
+    }
+    .desc .details{
+        gap: 15px;
+    }
+    .desc .details .table{
+        gap: 3px;
+    }
+    
+    .desc .details .table .t_body{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30px, 100px));
+        gap: 20px;
+    }
+    .desc .details .table .t_body:nth-child(1){
+        font-size: 9px;
+        /* gap: 40px; */
+    }
+    .desc .details .table .t_body:nth-child(2){
+        font-size: 8px;
+    }
+    main form{
+        gap: 15px;
+        padding: 50px 7%;
+    }
+    form .txt{
+        gap: 15px;
+    }
+    form .txt h1{
+        font-size: 15px;
+    }
+    form .txt p{
+        gap: 10px;
+        font-size: 10px;
+    }
+    form input{
+        height: 30px;
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+    form input::placeholder{
+        font-size: 9px;
+    }
+    form label{
+        font-size: 10px;
+    }
+    form .inp{
+        gap: 12px;
+    }
+    form .inp div{
+        gap: 4px;
+    }
+    #CVV::placeholder{
+        font-style: italic;
+    }
+    form .btn button{
+        width: 20%;
+        font-size: 10px;
+        border-radius: 15px;
+        padding: 8px 3px;
+    
+    }
+}
+/* 320px */
+@media(max-width: 320px){
+    .container{
+        padding: 20px 7%;
+        gap: 20px;
+    }
+    .desc .name h2{
+        font-size: 13px;
+    }
+    .desc .details .txt p{
+        font-size: 7px;
+    }
+    .desc .details{
+        gap: 10px;
+    }
+    .desc .details .table{
+        gap: 1px;
+    }
+    
+    .desc .details .table .t_body{
+        grid-template-columns: repeat(auto-fit, minmax(30px, 70px));
+        gap: 10px;
+    }
+    .desc .details .table .t_body:nth-child(1){
+        font-size: 9px;
+    }
+    .desc .details .table .t_body:nth-child(2){
+        font-size: 8px;
+    }
+    main form{
+        gap: 12px;
+        padding: 34px 7%;
+    }
+    form .txt{
+        gap: 10px;
+    }
+    form .txt h1{
+        font-size: 12px;
+    }
+    form .txt p{
+        gap: 10px;
+        font-size: 9px;
+    }
+    form input{
+        height: 25px;
+        font-size: 8px;
+    }
+    form input::placeholder{
+        font-size: 8px;
+    }
+    form label{
+        font-size: 9px;
+    }
+    form .inp{
+        gap: 10px;
+    }
+    form .btn button{
+        width: 20%;
+        font-size: 8px;
+        border-radius: 10px;
+        padding: 5px 3px;
+    
+    }
+}
