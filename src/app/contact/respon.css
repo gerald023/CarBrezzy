@@ -52,23 +52,6 @@
     .faq_con ul{
         width: 200px;
     }
-    .faq_con ul li{
-        height: 20px;
-    }
-    .faq_con ul li div{
-        padding: 7px 8px 12px 8px;
-
-        align-items: center;
-    }
-    .faq_con ul li div h3{
-        font-size: 10px;
-    }
-    .faq_con ul li div i{
-        font-size: 10px;
-    }
-    .faq_con ul li  p{
-        font-size: 10px;
-    }
 
     .mapp h1{
         font-size: 18px;

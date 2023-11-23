@@ -1,7 +1,7 @@
 <div class="questions">
     <div class="open_accordion"  (click)="toggleFaq()">
         <h3 class="open_accordion2">{{data.title}}</h3>
-        <i class="fa-solid fa-angle-down"></i>
+        <fa-icon [icon]="angleDown"></fa-icon>
         
     </div>
     <div class="body" *ngIf="isFaqOpen">

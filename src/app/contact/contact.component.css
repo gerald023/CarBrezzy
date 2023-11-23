@@ -161,47 +161,23 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-bottom: -90px;
     width: 800px;
 }
 
 .faq_con ul li{
     width: 100%;
-    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.5s ease-in-out;
-    text-align: center;
-    border-radius: 15px;
-    padding: 0px 0;
     justify-content: center;
-    background-color: white;
     color: #3e373c;
 }
-.faq_con ul li div{
-    width: 100%;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.faq_con ul li h3,
-.faq_con ul li p,
-.faq_con ul li i{
-    color: #3e373c;
+.faq_con ul li app-faq{
+    width: 80%;
+    padding: 0;
 }
 
-.faq_con ul li p{
-    text-align: center;
-}
-.faq_con ul li .body{
-    padding: 10px 30px;
-}
-.faq_con ul li h3{
-    font-size: 23px;
-}
 
 /* MAPP SECTION */
 .mapp{
