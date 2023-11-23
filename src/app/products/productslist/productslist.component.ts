@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductsService } from '../products.service';
 import { RouterModule } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-productslist',
@@ -21,5 +22,8 @@ export class ProductslistComponent implements OnInit{
     this.store.getAllProducts().subscribe(products =>{
       this.products = products;
     });
+  
+   
   }
+
 }
