@@ -35,13 +35,7 @@ body{
     margin-top: -7px;
     position: relative;
 }
-#hero .radio{
-    position: absolute;
-    background-color: white;
-    bottom: 100px;
-    gap: 70px;
-    display: flex;
-}
+
 #hero .hero_rt{
     width: 500%;
     height: 100%;
@@ -90,8 +84,7 @@ body{
     align-items: center;
 
 }
-.shadow:hover{
-}
+
 .shadow img{
     height: 100%;
     width: 100%;
@@ -99,15 +92,6 @@ body{
     box-shadow: inset 600px 0px 800px -200px rgb(0, 0, 0);
 }
 
-.shadow_visible{
-    display: flex;
-    transition:0.5s  ease-in-out;
-    transform: translateX(0);
-    transform: translateX(-100%);
-    transform: scale(1);
-    flex: 100%;
-    animation: scroll-in;
-}
 @keyframes scroll-in { 
 
     0%{

@@ -1,13 +1,12 @@
 @media(max-width:1000px){
     #hero{
         height: 100vh;
-        margin-bottom: 50px;
     }
     .hero .hero_sec{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10%;
+        gap: 1%;
     }
     .shadow img{
         object-fit: cover;
@@ -19,7 +18,9 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        width: 80%;
+        padding-left: 0%;
+        padding: 20px 4%;
+        width: 100%;
         box-shadow: none;
 
     }
@@ -59,6 +60,12 @@
         font-size: 16px;
         text-align: center;
     }
+    .g_btn {
+        padding: 8px 16px;
+        border-radius: 14px;
+        font-size: 14px;
+        gap: 6px;
+    }
 }
 @media(max-width:750px){
     .hero_txt .txt{
@@ -74,6 +81,12 @@
     .hero_txt .txt p{
         font-size: 14px;
         text-align: center;
+    }
+    .g_btn {
+        padding: 8px 15px;
+        border-radius: 12px;
+        font-size: 14px;
+        gap: 6px;
     }
 }
 @media(max-width:450px){

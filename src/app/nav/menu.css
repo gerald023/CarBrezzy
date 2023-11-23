@@ -32,6 +32,9 @@ menu .con .txt h5{
     gap: 12px;
     color: black;
 }
+.close:hover .closer{
+    transform: rotate(180deg);
+}
 menu .con ul{
     display: flex;
     flex-direction: column;
@@ -53,6 +56,7 @@ menu .con ul li a{
 }
 menu .con fa-icon{
     color: black;
+    transition: 0.6s ease-in-out;
 }
 menu .con ul li a:hover{
     background-color: gainsboro;
@@ -64,4 +68,20 @@ menu .closeMenu{
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 255, 255, 0.13);
+}
+@media(max-width: 550px){
+    menu .con{
+        width: 75%;
+    }
+    menu .closeMenu{
+        width: 25%;
+    }
+}
+@media(max-width: 400px){
+    menu .con{
+        width: 75%;
+    }
+    menu .closeMenu{
+        width: 25%;
+    }
 }

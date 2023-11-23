@@ -12,9 +12,9 @@
                 <a href="">About Us</a>
                 <a href="contact">Contact Us</a>
             </div>
-            <div class="fav">
+            <div class="fav" (click)="toggleMenu()">
                
-                     <fa-icon [icon]="faBar" (click)="toggleMenu()"></fa-icon>
+                     <fa-icon [icon]="faBar" ></fa-icon> Menu
                
             </div>
         </div>
@@ -23,7 +23,7 @@
         <div class="closeMenu" (click)="clickedOutside()"></div>
         <div class="con" (click)="clickedInside()">
             <div class="txt" >
-                <h5  (click)="clickedOutside()"><fa-icon [icon]="faclose"></fa-icon> Close</h5>
+                <h5 class="close" (click)="clickedOutside()"><fa-icon class="closer" [icon]="faclose"></fa-icon> Close</h5>
             </div>
             <ul>
                 <li>
