@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Akaya Kanadaka;
+    color: black;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.abtHero{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/about.jpg');
+}
+.abtHero h1{
+    font-size: 50px;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgba(1, 1, 1, 0.505);
+    text-shadow: 2px 2px 2ppx gainsboro;
+}
+main ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 7%;
+    align-items: center;
+}
+ul h1{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 50px;
+}
+ul li{
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+    gap: 5%;
+}
+ul li .img{
+    width: 40%;
+    height: 400px;
+}
+ul li .img img{
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+ul li:nth-child(3) .img img{
+    object-position: top;
+}
+ul li .txt{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: max-content;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background-color: white;
+    gap: 30px;
+}
+ul li .txt div{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.txt .head{
+    align-items: center;
+}
+.txt div h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.txt div p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.txt .body{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+/* 600px */
+@media (max-width: 600px){
+
+.abtHero h1{
+    font-size: 40px;
+    padding: 7px 15px;
+}
+main ul{
+    padding: 80px 7%;
+}
+ul h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+ul li{
+    margin-bottom: 50px;
+}
+ul li .img{
+    width: 40%;
+    height: 300px;
+}
+ul li .img img{
+    border-radius: 17px;
+}
+ul li .txt{
+    border-radius: 17px;
+    padding: 20px 30px;
+    gap: 25px;
+}
+ul li .txt div{
+    gap: 15px;
+}
+.txt .head{
+    align-items: center;
+}
+.txt div h3{
+    font-size: 18px;
+}
+.txt div p{
+    font-size: 13px;
+}
+.txt .body{
+    gap: 30px;
+}
+}
+/* 450px */
+@media (max-width: 450px){
+
+    .abtHero h1{
+        font-size: 30px;
+        padding: 5px 10px;
+    }
+    main ul{
+        padding: 50px 7%;
+    }
+    ul h1{
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    ul li{
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    ul li .img{
+        width: 100%;
+        height: 200px;
+    }
+    ul li .img img{
+        border-radius: 8px;
+    }
+    ul li .txt{
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 20px;
+        gap: 12px;
+    }
+    ul li .txt div{
+        gap: 10px;
+    }
+    .txt .head{
+        align-items: center;
+    }
+    .txt div h3{
+        font-size: 13px;
+    }
+    .txt div p{
+        font-size: 9px;
+    }
+    .txt .body{
+        gap: 18px;
+    }
+    }

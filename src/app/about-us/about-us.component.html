@@ -1,0 +1,31 @@
+<main>
+    <div class="abtHero">
+        <h1>About Us</h1>
+    </div>
+    <ul class="team">
+        <h1>MEET OUR UNIQUE TEAM</h1>
+        <li *ngFor="let student of students">
+            <div class="img">
+                <img src="{{student.img}}" alt="">
+            </div>
+            <div class="txt">
+                <div class="head">
+                    <h3>Name:</h3>
+                    <p>{{student.name}}</p>
+                </div>
+                <div class="head">
+                    <h3>Position:</h3>
+                    <p>{{student.pos}}</p>
+                </div>
+                <div class="head">
+                    <h3>StudentID:</h3>
+                    <p>{{student.stdId}}</p>
+                </div>
+                <div class="body">
+                    <h3>About Him:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cum corrupti aspernatur saepe culpa, nam sed voluptas ipsum cupiditate rerum debitis quas dolores quaerat molestias! Nesciunt ab rerum aliquam laudantium!</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</main>

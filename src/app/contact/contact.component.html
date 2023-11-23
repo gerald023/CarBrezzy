@@ -9,17 +9,17 @@
         </div>
         <div class="box_con con111">
             <a href="tel: 09075281633" class="box">
-                <i class="fa-solid fa-phone-volume"></i>
+                <fa-icon [icon]="phone"></fa-icon>
                 <h1>CALL US</h1>
                 <p>09075281633</p>
             </a>
             <a href="mailto: support.carbrezzy.com" class="box">
-                <i class="fa-solid fa-envelope"></i>
+                <fa-icon [icon]="mail"></fa-icon>
                 <h1>EMAIL US</h1>
                 <p>support.carbrezzy.com</p>
             </a>
             <a href="#mappy" class="box">
-                <i class="fa-solid fa-location-dot"></i>
+                <fa-icon [icon]="location"></fa-icon>
                 <h1>LOCATION</h1>
                 <p>#3 MBA Plaza Rumomasi Port Harcourt</p>
             </a>
@@ -28,17 +28,17 @@
     </div>
     <div class="box_con con22">
         <a href="tel: 09075281633" class="box">
-            <i class="fa-solid fa-phone-volume"></i>
+            <fa-icon [icon]="phone"></fa-icon>
             <h1>CALL US</h1>
             <p>09075281633</p>
         </a>
         <a href="mailto: support.carbrezzy.com" class="box">
-            <i class="fa-solid fa-envelope"></i>
+            <fa-icon [icon]="mail"></fa-icon>
             <h1>EMAIL US</h1>
             <p>support.carbrezzy.com</p>
         </a>
         <a href="#mappy" class="box">
-            <i class="fa-solid fa-location-dot"></i>
+            <fa-icon [icon]="location"></fa-icon>
             <h1>LOCATION</h1>
             <p>#3 MBA Plaza Rumomasi Port Harcourt</p>
         </a>
@@ -48,42 +48,12 @@
             <div class="bulb"></div>
             <h1>FREQUENTLY ASKED QUSETIONS (FAQs)</h1>
             <ul>
-                <li>
-                    <div class="open_accordion">
-                        <h3 class="open_accordion2">How can CarBrezzy help me find my next car?</h3>
-                        <i class="fa-solid fa-angle-down"></i>
-                        
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum recusandae hic nobis, maiores cupiditate minus harum aspernatur assumenda culpa explicabo nemo officia molestiae, vitae est laborum enim necessitatibus unde fugit.</p>
+                <li *ngFor="let faq of data">
+                 
+                    <app-faq [data]="faq"></app-faq>
                 </li>
-                <li>
-                    <div class="open_accordion">
-                        <h3 class="open_accordion2">Does CarBrezzy offer and discount?</h3>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quis ut nobis explicabo placeat commodi a rem optio dolorum officiis?</p>
-                </li>
-                <li>
-                    <div class="open_accordion">
-                        <h3 class="open_accordion2">Can I search cars by photos?</h3>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium tempore, doloremque hic aspernatur ullam ipsa architecto excepturi rem alias nobis officia dolor fugiat eum, corrupti dolorum consectetur.</p>
-                </li>
-                <li>
-                    <div class="open_accordion">
-                        <h3 class="open_accordion2">How do I reset my password?</h3>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium reprehenderit similique pariatur rerum alias nesciunt beatae.</p>
-                </li>
-                <li>
-                    <div class="open_accordion">
-                        <h3 class="open_accordion2">How to adjust my search result?</h3>
-                        <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum possimus rerum dicta hic temporibus voluptatem sequi, ipsam quia maiores voluptate eius at distinctio?</p>
-                </li>
+        
+             
             </ul>
         </div>
     </section>

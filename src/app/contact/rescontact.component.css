@@ -52,7 +52,6 @@
     }
     .faq_con ul li{
         width: 100%;
-        height: 40px;
         display: flex;
         overflow-y: hidden;
         flex-direction: column;
@@ -63,7 +62,6 @@
     }
     .faq_con ul li div{
         width: 100%;
-        padding: 10px 20px;
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -159,7 +157,7 @@
     .box_con .box{
         height: 150px;
     }
-    .box i{
+    .box fa-icon{
         font-size: 17px;
     }
     .faq .faq_con .bulb::after{
@@ -172,12 +170,6 @@
     }
     .faq_con ul{
         width: 350px;
-    }
-    .faq_con ul li{
-        height: 30px;
-    }
-    .faq_con ul li div{
-        padding-top: 7px;
     }
     .faq_con ul li div h3{
         font-size: 12px;
